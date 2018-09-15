@@ -352,6 +352,172 @@ height:50vh;
     
     
     <article class="index-post">
+        <a class="abstract-title" href = "/2018/09/15/数据结构图/" >
+            
+                <span>数据结构图</span>
+        </a>
+        <div class="abstract-content">
+            Gragh图的基本概念G=(V;E)
+有向图
+无向图－&gt;有向图
+path:路径中含有重复节点
+simple path:路径中不含重复节点
+DAG
+欧拉环路
+Ｈａｍｉｌｔｏｎ环
+图的实现123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051typedef enum &#123; UNDISCOVERED, DISCOVERED, VISITED &#125; VStatus; //顶点状态typedef enum &#123; UNDETERMINED,...
+        </div>
+        <div class="abstract-post-meta">
+            <!-- date  -->
+            <div class="abstract-date">
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/09/15</span>
+            </div>
+            <!-- tags  -->
+            
+            <div class= abstract-tags >
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "数据结构">数据结构</a>
+    
+</div>
+            
+        </div>
+    </article>
+    
+    
+    
+    
+    
+    
+    <article class="index-post">
+        <a class="abstract-title" href = "/2018/09/15/数据结构树/" >
+            
+                <span>数据结构树</span>
+        </a>
+        <div class="abstract-content">
+            树列表的列表
+特殊的图
+有序树
+树是无环连通图
+任一节点v与根之间存在唯一路径　path(v,r)
+path(v),v,subtree(v)
+深度　depth(v)=|path(v)|
+祖先//后代
+半线性结构　：前驱的唯一性，后继不具有唯一性
+根节点：公共祖先，深度为０
+叶子（leaf):没有后代的节点
+树的高度　:
+​            height(T) =
+height(v) =height(subtree(v))
+空树的高度取作－１！
+depth(v)+height(v)&lt;=height(T)
+
+逻辑结构
+node  ：
+date域+rank域+parent域
+
+pa...
+        </div>
+        <div class="abstract-post-meta">
+            <!-- date  -->
+            <div class="abstract-date">
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/09/15</span>
+            </div>
+            <!-- tags  -->
+            
+            <div class= abstract-tags >
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "数据结构">数据结构</a>
+    
+</div>
+            
+        </div>
+    </article>
+    
+    
+    
+    
+    
+    
+    <article class="index-post">
+        <a class="abstract-title" href = "/2018/09/15/数据结构栈和队列/" >
+            
+                <span>数据结构栈和队列</span>
+        </a>
+        <div class="abstract-content">
+            栈和队列栈栈类将向量０位置作为栈底
+1234567891011121314template &lt;typename T&gt; class Stack:public Vector&lt;T&gt;&#123;void push(T const &amp;e)&#123;    insert(size(),e);　//入栈&#125;T pop()　　　　　　　　//　出栈　　　&#123;	return remove(size()-1);&#125;T &amp;top()              //取顶&#123;	return (*this)[size()-1];&#125;&...
+        </div>
+        <div class="abstract-post-meta">
+            <!-- date  -->
+            <div class="abstract-date">
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/09/15</span>
+            </div>
+            <!-- tags  -->
+            
+            <div class= abstract-tags >
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "数据结构">数据结构</a>
+    
+</div>
+            
+        </div>
+    </article>
+    
+    
+    
+    
+    
+    
+    <article class="index-post">
+        <a class="abstract-title" href = "/2018/09/15/数据结构算法分析/" >
+            
+                <span>数据结构算法分析</span>
+        </a>
+        <div class="abstract-content">
+            数据结构——算法分析
+主要任务:正确性（不变性＋单调性）＋复杂度
+
+复杂度＝RAM基本指令次数
+
+复杂度分析方法
+迭代：级数求和
+级数具体数学
+
+
+  递归：递归跟踪＋递推方程＋猜测验证
+递归分析  减而治之
+  分而治之
+  数组求和　二分递归
+
+平均分析/分摊分析
+平均复杂度：根据数据结构各种操作出现概率分布，将其对应成本加权平均，各种可能的操作作为独立事件分别考察，割裂了操作间的相关性和连贯性。
+分摊复杂度：对数据结构连续的实施足够多次操作，所需总体成本分摊至单次操作
+
+
+
+        </div>
+        <div class="abstract-post-meta">
+            <!-- date  -->
+            <div class="abstract-date">
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/09/15</span>
+            </div>
+            <!-- tags  -->
+            
+            <div class= abstract-tags >
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "数据结构">数据结构</a>
+    
+</div>
+            
+        </div>
+    </article>
+    
+    
+    
+    
+    
+    
+    <article class="index-post">
         <a class="abstract-title" href = "/2018/09/12/ctocpplearning/" >
             
                 <span>ctocpplearning</span>
@@ -396,29 +562,6 @@ height:50vh;
             <!-- date  -->
             <div class="abstract-date">
                 <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/08/31</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2018/08/16/welcome/" >
-            
-                <span>Welcome</span>
-        </a>
-        <div class="abstract-content">
-            Happy to share my ideas with you guys
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/08/16</span>
             </div>
             <!-- tags  -->
             
@@ -650,9 +793,48 @@ height:50vh;
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="total-and-search">
         <div class="total-archive">
-        Total : 3
+        Total : 6
         </div>
         <!-- search  -->
         
@@ -668,6 +850,26 @@ height:50vh;
     
     
         <li class="archive-post-item">
+            <span class="archive-post-date">09/15</span><a class="archive-post-title" href= "/2018/09/15/数据结构算法分析/" >数据结构算法分析</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">09/15</span><a class="archive-post-title" href= "/2018/09/15/数据结构树/" >数据结构树</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">09/15</span><a class="archive-post-title" href= "/2018/09/15/数据结构栈和队列/" >数据结构栈和队列</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">09/15</span><a class="archive-post-title" href= "/2018/09/15/数据结构图/" >数据结构图</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
             <span class="archive-post-date">09/12</span><a class="archive-post-title" href= "/2018/09/12/ctocpplearning/" >ctocpplearning</a>
         </li>
     
@@ -676,17 +878,14 @@ height:50vh;
             <span class="archive-post-date">08/31</span><a class="archive-post-title" href= "/2018/08/31/USTC/" >FIRST_YEAR_IN_USTC</a>
         </li>
     
-    
-        <li class="archive-post-item">
-            <span class="archive-post-date">08/16</span><a class="archive-post-title" href= "/2018/08/16/welcome/" >Welcome</a>
-        </li>
-    
     </div>
   </div>
         <div class="sidebar-panel-tags">
     <div class="sidebar-tags-name">
     
         <span class="sidebar-tag-name" data-tags="cpp"><span class="iconfont-archer">&#xe606;</span>cpp</span>
+    
+        <span class="sidebar-tag-name" data-tags="数据结构"><span class="iconfont-archer">&#xe606;</span>数据结构</span>
     
     </div>
     <div class="iconfont-archer sidebar-tags-empty">&#xe678;</div>
